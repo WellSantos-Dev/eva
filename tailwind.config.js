@@ -7,14 +7,18 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        'container': '64.875rem',
+        'container': '65.5rem',
+        'productRow': '1044px',
+        'proudctRowSm': '786px'
       },
       width: {
         '128': '32rem',
         '236': '14.75rem',
         'product': '236px',
         'input': '28.125rem',
-        '230': '230px'
+        '230': '230px',
+        '228': '228px',
+        'container': '65.5rem',
       },
       height: {
         '374': '23.375rem',

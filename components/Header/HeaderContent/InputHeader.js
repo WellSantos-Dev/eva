@@ -8,7 +8,7 @@ export const InputHeader = () => {
   const { buscaFiltrada, setSearchInput, searchInput } = useCommerceValue()
   return (
     <>
-      <div className="flex border-2 rounded-md md:border-none my-12 sm:my-0">
+      <div className="flex border-2 rounded-md md:border-none my-12 md:my-0">
       <div className="right-72 shadow-md w-64 rounded-md absolute bg-white md:top-16 md:w-64 md:right-auto">
         {
           buscaFiltrada.map((busca, index) => (
