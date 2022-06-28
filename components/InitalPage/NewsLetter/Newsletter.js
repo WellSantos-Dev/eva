@@ -1,4 +1,4 @@
-// Icon
+// Icons
 import imgEmail from '../../../public/svg/newsletter.svg'
 
 // Components
