@@ -23,7 +23,7 @@ export const SidebarMobile = () => {
         <Image src={open ? closeIcon : menuIcon} alt="Imagem representando menu Hamburguer" className="hover:opacity-90 cursor-pointer" width={16} height={18}/>
       </div>
 
-      <div className={`${open ? "right-0" : "-right-96"} w-1/2 h-screen rounded-b-lg duration-300 p-10 shadow-2xl fixed top-16 peer:transition ease-out delay-150 md:hidden bg-white`}>
+      <div className={`${open ? "right-0" : "-right-96"} w-3/4 h-screen rounded-b-lg duration-300 p-10 shadow-2xl fixed top-16 peer:transition ease-out delay-150 md:hidden bg-white`}>
         <div className="flex items-center w-full justify-center gap-8">
           <ul>
             <InputHeader />
